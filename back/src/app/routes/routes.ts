@@ -10,4 +10,4 @@ const api = Router()
   .use(profileController)
   .use(authController);
 
-export default Router().use('/api', api);
+export default Router().use('/angular-conduit-api/api', api);
