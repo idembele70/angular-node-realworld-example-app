@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "baseHref": "/angular-conduit/",
             "outputPath": {
               "base": "dist/angular-conduit"
             },
